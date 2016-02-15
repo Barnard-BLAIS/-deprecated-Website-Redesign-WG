@@ -68,16 +68,16 @@ i#print {
 <div>
     <ul id="socialmedia">
         <li>
-            <a class="socialmedia" href="https://www.facebook.com/barnardlibrary" target="_blank"><img alt="Barnard Library Facebook" src="https://library.barnard.edu/sites/default/files/styles/wysiwyg_smallest/public/facebook_1_0.png" style="width: 30px; height: 30px;" typeof="foaf:Image" /></a>
+            <a class="socialmedia" href="https://www.facebook.com/barnardlibrary" target="_blank"><img alt="Barnard Library Facebook" src="/sites/default/files/styles/wysiwyg_smallest/public/facebook_1_0.png" style="width: 30px; height: 30px;" typeof="foaf:Image" /></a>
         </li>
         <li>
-            <a class="socialmedia" href="https://www.instagram.com/barnlib/" target="_blank"><img alt="Barnard Library Instagram" src="https://library.barnard.edu/sites/default/files/styles/wysiwyg_smallest/public/instagram.jpg" style="width: 30px; height: 30px;" typeof="foaf:Image" /></a>
+            <a class="socialmedia" href="https://www.instagram.com/barnlib/" target="_blank"><img alt="Barnard Library Instagram" src="/sites/default/files/styles/wysiwyg_smallest/public/instagram.jpg" style="width: 30px; height: 30px;" typeof="foaf:Image" /></a>
         </li>
         <li>
-            <a class="socialmedia" href="http://twitter.com/barnlib" target="_blank"><img alt="Barnard Library Twitter" src="https://library.barnard.edu/sites/default/files/styles/wysiwyg_smallest/public/twitter_3_0.png" style="width: 30px; height: 30px;" typeof="foaf:Image" /></a>
+            <a class="socialmedia" href="http://twitter.com/barnlib" target="_blank"><img alt="Barnard Library Twitter" src="/sites/default/files/styles/wysiwyg_smallest/public/twitter_3_0.png" style="width: 30px; height: 30px;" typeof="foaf:Image" /></a>
         </li>
         <li>
-            <a class="socialmedia" href="http://barnardlibrary.tumblr.com" target="_blank"><img alt="Barnard Library Tumblr" src="https://library.barnard.edu/sites/default/files/styles/wysiwyg_small/public/tumblr_logo_white_blue_32.png" style="width: 30px; height: 30px;" typeof="foaf:Image" /></a>
+            <a class="socialmedia" href="http://barnardlibrary.tumblr.com" target="_blank"><img alt="Barnard Library Tumblr" src="/sites/default/files/styles/wysiwyg_small/public/tumblr_logo_white_blue_32.png" style="width: 30px; height: 30px;" typeof="foaf:Image" /></a>
         </li>
     </ul>
 </div>
@@ -86,7 +86,8 @@ i#print {
     <br />
     <i id="library">&nbsp;</i><a href="http://www.columbia.edu/cgi-bin/cul/resolve?lweb0087" target="_blank">Your Library Account</a>
     <br />
-    <i id="print">&nbsp;</i><a href="http://www.columbia.edu/acis/facilities/printers/quota.html" target="_blank">Your Print Quota</a></div>
+    <i id="print">&nbsp;</i><a href="http://www.columbia.edu/acis/facilities/printers/quota.html" target="_blank">Your Print Quota</a>
+</div>
 <!--<h4><strong><a href="https://library.barnard.edu/access/hours#summerhours">Summer Hours</a></strong></h4>
 <p>The library is open<br />
     Monday to Friday, 9am to 5pm.<br />

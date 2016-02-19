@@ -1,0 +1,85 @@
+<style type="text/css">
+a.socialmedia,
+ul#socialmedia {
+    padding: 0;
+}
+
+ul#socialmedia li {
+    display: inline;
+}
+
+a.socialmedia:active,
+a.socialmedia:hover {
+    border: none;
+    text-decoration: none;
+}
+
+#leftnav-links span.ext {
+    display: none;
+}
+
+#leftnav-links a:hover,
+#leftnav-links a:active {
+    border: none;
+    color: #000;
+}
+
+#leftnav-links i {
+    display: inline-block;
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+i#library {
+    background: url('/sites/default/files/booksicon.png') no-repeat;
+}
+
+i#cu {
+    background: url('/sites/default/files/cuicon.png') no-repeat;
+}
+
+i#print {
+    background: url('/sites/default/files/printicon.png') no-repeat;
+}
+</style>
+<script>
+jQuery(document).ready(function($) {
+    $('.auto-hours').hide() // Hide the auto-hour area by default - since it won't work over https...
+        // The order of these operations matter. Do not change the order.
+    $('.hours').load('sites/default/files/blais_sidebar_content_1.snippet_0.txt');
+    // This snippet of code is modified from CUL Libraries. 
+    function getLibraryHours(a) {
+        $(a).each(function() {
+            var a = $(this).attr("data-location-id"),
+                b = $(this),
+                c = "http://hours.library.columbia.edu/",
+                d = $.ajax({
+                    url: c,
+                    data: {
+                        whichlib: a,
+                        device: "json"
+                    },
+                    dataType: "jsonp",
+                    timeout: 1e4
+                });
+            d.success(function(a) {
+                $('.auto-hours').show() // Reveal
+                "" != a.hours && b.html(a.hours)
+            });
+        })
+    };
+    // Get "Today's hours" from CUL website.
+    getLibraryHours('.cul-location-insert-hours-here');
+});
+</script>
+<div class="auto-hours">
+    <strong>Today&#39;s Hours</strong>: <span class="cul-location-insert-hours-here" data-location-id="barnard">Unable to fetch hours.</span>
+    <br /> &nbsp;
+</div>
+<div class="sidebar-hours-location-social-misc">
+    <span class="hours">    
+    <!-- To anyone looking to edit anything on the sidebar, please update https://library.barnard.edu/file/108641 -->
+    Sidebar Content
+    </span>
+</div>

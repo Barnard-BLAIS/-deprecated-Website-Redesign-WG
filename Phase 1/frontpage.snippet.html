@@ -70,12 +70,21 @@
 }
 
 .modalDialog > div {
-    width: 480px;
     position: relative;
     margin: 10% auto;
     padding: 5px 20px 13px 20px;
     border-radius: 10px;
     background: #fff;
+}
+
+.modalDialog#libraryAtLeFrak > div {
+    /* I'm aware this is bad CSS */
+    width: 480px;
+}
+
+.modalDialog#aMapOfLeFrak > div {
+    /* I'm aware this is bad CSS */
+    width: 720px;
 }
 
 .close {
@@ -101,7 +110,9 @@
     background: #00d9ff;
 }
 </style>
-<div id="important"><a href="#libraryAtLeFrak">The Library @LeFrak</a></div>
+<div id="important"><a href="#libraryAtLeFrak">The Library @LeFrak</a>
+    <br/>
+    <a href="#aMapOfLeFrak">Map of the Library @LeFrak</a></div>
 <!-- Start of Modal Content - What's in LeFrak? -->
 <div class="modalDialog" id="libraryAtLeFrak">
     <div><a class="close" href="#close" title="Close">X</a>
@@ -109,6 +120,13 @@
         <p>[[{"type":"media","view_mode":"custom_large","fid":"106886","attributes":{"alt":"","class":"media-image","height":"278","typeof":"foaf:Image","width":"480"}}]]</p>
         <p>[[{"type":"media","view_mode":"custom_large","fid":"106891","attributes":{"alt":"","class":"media-image","height":"234","typeof":"foaf:Image","width":"480"}}]]</p>
         <p>[[{"type":"media","view_mode":"custom_large","fid":"106896","attributes":{"alt":"","class":"media-image","height":"146","typeof":"foaf:Image","width":"480"}}]]</p>
+    </div>
+</div>
+<!-- End of Modal Content -->
+<!-- Start of Modal Content - LeFrak Floorplan -->
+<div class="modalDialog" id="aMapOfLeFrak">
+    <div><a class="close" href="#close" title="Close">X</a>
+        <img alt="A LeFrak Map!" src="sites/default/files/alefrakmap.png" style="height: 552px; width: 720px;" />
     </div>
 </div>
 <!-- End of Modal Content -->
@@ -130,7 +148,7 @@
         <div class="caption"><a href="http://zines.barnard.edu">Zine Collection</a></div>
     </div>
     <div class="icon" id="erc">
-        <a href="http://erc.barnard.edu"><img data-image-caption="Empirical Reasoning Center" src="sites/default/files/barnard_erc_logo.jpg" style="height: 200px; width: 200px;" /></a>
+        <a href="http://erc.barnard.edu"><img alt="Empirical Reasoning Center" src="sites/default/files/barnard_erc_logo.jpg" style="height: 200px; width: 200px;" /></a>
         <div class="caption"><a href="http://erc.barnard.edu/">Empirical Reasoning Center</a></div>
     </div>
     <div class="icon" id="imats">
@@ -141,8 +159,8 @@
 <!-- Modal Code -->
 <script>
 jQuery(document).click(function(event) {
-    if (event.target.id == "libraryAtLeFrak") {
-        location.href = "#close"
+    if (event.target.id == "libraryAtLeFrak" || event.target.id == "aMapOfLeFrak") {
+        location.href = "#close";
     }
 });
 </script>

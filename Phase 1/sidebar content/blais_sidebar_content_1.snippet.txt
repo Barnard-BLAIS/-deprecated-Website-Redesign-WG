@@ -43,7 +43,8 @@ i#print {
     background: url('/sites/default/files/printicon.png') no-repeat;
 }
 </style>
-<div>
+<!-- Hours text div -->
+<div id="hours">
     <p><strong><a href="http://library.barnard.edu/access/hours">HOURS</a></strong>
         <br /> Sun: 10am - 12am
         <br /> Mon-Thurs: 8:30am* - 12am
@@ -54,7 +55,8 @@ i#print {
         <br />
         <a href="http://library.barnard.edu/access/hours">See all &raquo;</a></p>
 </div>
-<div>
+<!-- Contact us div -->
+<div id="contactUs">
     <p><strong><a href="http://library.barnard.edu/contact/contact-us">CONTACT US</a></strong>
         <br /> 212-854-3953
         <br />
@@ -65,7 +67,8 @@ i#print {
         <br />
         <a href="http://library.barnard.edu/about-the-library/map">Map &raquo;</a></p>
 </div>
-<div>
+<!-- Social media div -->
+<div id="social">
     <ul id="socialmedia">
         <li>
             <a class="socialmedia" href="https://www.facebook.com/barnardlibrary" target="_blank"><img alt="Barnard Library Facebook" src="/sites/default/files/styles/wysiwyg_smallest/public/facebook_1_0.png" style="width: 30px; height: 30px;" typeof="foaf:Image" /></a>
@@ -81,6 +84,7 @@ i#print {
         </li>
     </ul>
 </div>
+<!-- CUL links -->
 <div id="leftnav-links">
     <i id="cu">&nbsp;</i><a href="http://www.columbia.edu/cu/lweb/" target="_blank">Columbia Libraries</a>
     <br />

@@ -1,7 +1,25 @@
-#block-views-news_by_department-block_1>h2.block-title {
+/* Do not display titles */
+#block-views-news_by_department-block_1>h2.block-title #block-views-events_by_department-block_1>h2.block-title {
     display: none;
 }
 
-.view.view-news-by-department.view-id-news_by_department.view-display-id-block_1 {
-	
+/* Area to define overall block detail */
+div#block-views-news_by_department-block_1 div##block-views-events_by_department-block_1 {
+    margin: 0;
 }
+
+/* ELEMENT:; ROWS */
+.views-row {
+    display: inline-block;
+    /* Once we break away from the sidebar the width needs to be modified to fit 3 col */
+    width: 160px;
+    min-height: 160px;
+    text-align: center;
+}
+
+/* This could be moved elsewhere, but we might add other borders. */
+.view .item-list ul li {
+    /* border-bottom: 1px solid #acacac; */
+    border: none;
+}
+

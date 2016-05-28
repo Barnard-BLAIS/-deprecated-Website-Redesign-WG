@@ -1,0 +1,98 @@
+<style type="text/css">
+a.socialmedia,
+ul#socialmedia {
+    padding: 0;
+}
+
+ul#socialmedia li {
+    display: inline;
+}
+
+a.socialmedia:active,
+a.socialmedia:hover {
+    border: none;
+    text-decoration: none;
+}
+
+#leftnav-links span.ext {
+    display: none;
+}
+
+#leftnav-links a:hover,
+#leftnav-links a:active {
+    border: none;
+    color: #000;
+}
+
+#leftnav-links i {
+    display: inline-block;
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+i#library {
+    background: url('/sites/default/files/booksicon.png') no-repeat;
+}
+
+i#cu {
+    background: url('/sites/default/files/cuicon.png') no-repeat;
+}
+
+i#print {
+    background: url('/sites/default/files/printicon.png') no-repeat;
+}
+</style>
+<!-- Hours text div -->
+<div id="hours">
+    <p><strong><a href="http://library.barnard.edu/access/hours">HOURS</a></strong>
+        <br /> Sun: 10am - 12am
+        <br /> Mon-Thurs: 8:30am* - 12am
+        <br /> Fri: 8:30am* - 6pm
+        <br /> Sat: 10am - 6pm
+        <br />
+        <span style="display:inline-block; margin: 5px 0;"><strong>*The library opens at 8:30am and library services begin at 8:45am.</strong></span>
+        <br />
+        <a href="http://library.barnard.edu/access/hours">See all &raquo;</a></p>
+</div>
+<!-- Contact us div -->
+<div id="contactUs">
+    <p><strong><a href="http://library.barnard.edu/contact/contact-us">CONTACT US</a></strong>
+        <br /> 212-854-3953
+        <br />
+        <a href="mailto:library@barnard.edu">library@barnard.edu</a>
+        <br /> LeFrak Center, Barnard Hall
+        <br /> 3009 Broadway
+        <br /> New York, NY 10027
+        <br />
+        <a href="http://library.barnard.edu/about-the-library/map">Map &raquo;</a></p>
+</div>
+<!-- Social media div -->
+<div id="social">
+    <ul id="socialmedia">
+        <li>
+            <a class="socialmedia" href="https://www.facebook.com/barnardlibrary" target="_blank"><img alt="Barnard Library Facebook" src="/sites/default/files/styles/wysiwyg_smallest/public/facebook_1_0.png" style="width: 30px; height: 30px;" typeof="foaf:Image" /></a>
+        </li>
+        <li>
+            <a class="socialmedia" href="https://www.instagram.com/barnlib/" target="_blank"><img alt="Barnard Library Instagram" src="/sites/default/files/styles/wysiwyg_smallest/public/instagram.jpg" style="width: 30px; height: 30px;" typeof="foaf:Image" /></a>
+        </li>
+        <li>
+            <a class="socialmedia" href="http://twitter.com/barnlib" target="_blank"><img alt="Barnard Library Twitter" src="/sites/default/files/styles/wysiwyg_smallest/public/twitter_3_0.png" style="width: 30px; height: 30px;" typeof="foaf:Image" /></a>
+        </li>
+        <li>
+            <a class="socialmedia" href="http://barnardlibrary.tumblr.com" target="_blank"><img alt="Barnard Library Tumblr" src="/sites/default/files/styles/wysiwyg_small/public/tumblr_logo_white_blue_32.png" style="width: 30px; height: 30px;" typeof="foaf:Image" /></a>
+        </li>
+    </ul>
+</div>
+<!-- CUL links -->
+<div id="leftnav-links">
+    <i id="cu">&nbsp;</i><a href="http://www.columbia.edu/cu/lweb/" target="_blank">Columbia Libraries</a>
+    <br />
+    <i id="library">&nbsp;</i><a href="http://www.columbia.edu/cgi-bin/cul/resolve?lweb0087" target="_blank">Your Library Account</a>
+    <br />
+    <i id="print">&nbsp;</i><a href="http://www.columbia.edu/acis/facilities/printers/quota.html" target="_blank">Your Print Quota</a>
+</div>
+<!--<h4><strong><a href="https://library.barnard.edu/access/hours#summerhours">Summer Hours</a></strong></h4>
+<p>The library is open<br />
+    Monday to Friday, 9am to 5pm.<br />
+    <a href="https://library.barnard.edu/access/hours#reghours"><strong>Regular Hours</strong></a> begin on Tuesday, Sept. 4.</p>-->

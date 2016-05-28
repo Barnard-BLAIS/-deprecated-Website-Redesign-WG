@@ -1,0 +1,352 @@
+/* CONTENT LEVEL DIVS */
+
+.region-content {
+    /*text-align: center;*/
+}
+
+.content {
+    /*text-align: left !important;*/
+}
+
+
+/* SIDEBAR AREA */
+
+#social {
+    width: 100%;
+}
+
+a.socialmedia,
+ul#socialmedia {
+    padding: 0;
+    margin-right: 10px;
+    list-style: none none;
+    text-align: center;
+}
+
+ul#socialmedia li {
+    display: inline-block;
+    margin: auto;
+    padding: 2.5px;
+}
+
+a.socialmedia:active,
+a.socialmedia:hover {
+    border: none;
+    text-decoration: none;
+}
+
+
+/* CONTENT AREA */
+
+.lib-wrap {
+    width: 100%
+}
+
+.main-content {
+    display: block;
+    margin: 10px 0;
+    float: left;
+    width: 31%;
+    padding-left: 2.3%;
+}
+
+hr.lib-style {
+    clear: left;
+    border: 0;
+    height: 2px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+ul.no-bullets {
+    padding: 0;
+    list-style: none none;
+}
+
+ul.no-bullets li {
+    margin: 0;
+}
+
+#hours li {
+    margin: 0;
+}
+
+
+/* TOOLTIPS */
+
+[data-tooltip] {
+    display: inline-block;
+    position: relative;
+    cursor: help;
+}
+
+
+/* Tooltip styling */
+
+[data-tooltip]:before {
+    content: attr(data-tooltip);
+    display: none;
+    position: absolute;
+    background: #000;
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 14px;
+    line-height: 1.4;
+    min-width: 175px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+
+/* Dynamic horizontal centering */
+
+[data-tooltip-position="bottom"]:before {
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+
+/* Dynamic vertical centering */
+
+[data-tooltip-position="bottom"]:before {
+    top: 100%;
+    margin-top: 6px;
+}
+
+
+/* Tooltip arrow styling/placement */
+
+[data-tooltip]:after {
+    content: '';
+    display: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+
+/* Dynamic horizontal centering for the tooltip */
+
+[data-tooltip-position="bottom"]:after {
+    left: 50%;
+    margin-left: -6px;
+}
+
+
+/* Dynamic vertical centering for the tooltip */
+
+[data-tooltip-position="bottom"]:after {
+    top: 100%;
+    border-width: 0 6px 6px;
+    border-bottom-color: #000;
+}
+
+
+/* Show the tooltip when hovering */
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+    display: block;
+    z-index: 50;
+}
+
+
+/* BLOCK REGION IN CONTENT */
+
+
+/* Do not display titles */
+
+#block-views-news_by_department-block_1>h2.block-title,
+#block-views-events_by_department-block_1>h2.block-title {
+    /* display: none; */
+}
+
+
+/* Area to define overall block detail */
+
+div#block-views-news_by_department-block_1,
+div#block-views-events_by_department-block_1 {
+    margin: 0;
+}
+
+
+/* Remove Margin-bottom from main content div */
+
+div#block-system-main {
+    margin-bottom: -10px !important;
+}
+
+
+/* Twitter Block */
+
+div#block-twitter_block-26 {
+    display: block;
+    float: left;
+    width: 31%;
+    padding-left: 2.3%;
+}
+
+
+/* News/Announcements View-Block */
+
+div#block-block-306 {
+    display: block;
+    float: left;
+    width: 31%;
+    padding-left: 2.3%;
+}
+
+
+/* Video Feed Block */
+
+div#block-block-316 {
+    display: block;
+    float: right;
+    width: 31%;
+    padding-left: 2.3%;
+}
+
+h2.block-title,
+.main-content>h2 {
+    font-family: Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: normal;
+    margin: 0;
+    text-align: left;
+    padding: 10px 10px 10px 0 !important;
+}
+
+
+/* ELEMENT: ROWS (NOT IN USE)
+.views-row {
+    display: inline-block;
+    /* Once we break away from the sidebar the width needs to be modified to fit 3 col
+    width: 160px;
+    min-height: 160px;
+    /* text-align: center; 
+} */
+
+
+/* This could be moved elsewhere, but we might add other borders. */
+
+.view .item-list ul li {
+    /* border-bottom: 1px solid #acacac; */
+    border: none;
+}
+
+.view .views-field-field-ledeimage {
+    position: relative;
+    float: none !important;
+    margin-top: 3px;
+    margin-right: 0 !important;
+    text-align: center;
+}
+
+
+/* CHAT box from LibH3lp */
+
+.library-chat-box {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+img#chat_button_on {
+    width: 15%;
+    margin: 0 5px -5px 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+img#chat_button_off {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* VIMEO */
+
+.vimeoBadge {
+    margin: 0;
+    padding: 0;
+    font: normal 11px verdana, sans-serif;
+}
+
+.vimeoBadge img {
+    border: 0;
+}
+
+.vimeoBadge a,
+.vimeoBadge a:link,
+.vimeoBadge a:visited,
+.vimeoBadge a:active {
+    color: #3A75C4;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.vimeoBadge a:hover {
+    color: #00CCFF;
+}
+
+.vimeoBadge #vimeo_badge_logo {
+    margin-top: 10px;
+    width: 57px;
+    height: 16px;
+}
+
+.vimeoBadge .credit {
+    font: normal 11px verdana, sans-serif;
+}
+
+.vimeoBadge .clip {
+    padding: 0;
+    float: left;
+    margin: 0 10px 10px 0;
+    line-height: 0;
+}
+
+.vimeoBadge.vertical .clip {
+    float: none;
+}
+
+.vimeoBadge .caption {
+    font: normal 11px verdana, sans-serif;
+    overflow: hidden;
+    width: auto;
+    height: 30px;
+}
+
+.vimeoBadge .clear {
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.vimeoBadge .s160 {
+    width: 160px;
+}
+
+.vimeoBadge .s80 {
+    width: 80px;
+}
+
+.vimeoBadge .s100 {
+    width: 100px;
+}
+
+.vimeoBadge .s200 {
+    width: 200px;
+}

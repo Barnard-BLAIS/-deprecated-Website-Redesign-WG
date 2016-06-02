@@ -1,15 +1,15 @@
 /* SIDEBAR AREA */
 
 #social {
+	margin-top: -35px;
     width: 100%;
 }
 
 a.socialmedia,
 ul#socialmedia {
     padding: 0;
-    margin-right: 10px;
+    margin-right: 5px;
     list-style: none none;
-    text-align: center;
 }
 
 ul#socialmedia li {

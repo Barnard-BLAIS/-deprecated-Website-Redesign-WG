@@ -255,10 +255,15 @@ img#chat_button_off {
 
 
 /* VIMEO */
+#badge {
+    height: 520px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
 
 .vimeoBadge img {
-    margin: 3px 0 3px 0;
-    border: 1px solid #111111;
+    margin: 3px 0;
+    border: 1px solid rgba(0,85,150,.25);
 }
 
 .vimeoBadge #vimeo_badge_logo {
@@ -279,6 +284,6 @@ img#chat_button_off {
 }
 
 .vimeoBadge .s200 {
-    width: 200px;
+    width: 195px;
     margin: auto;
 }

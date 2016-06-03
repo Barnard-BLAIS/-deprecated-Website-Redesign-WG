@@ -1,7 +1,6 @@
 /* SIDEBAR AREA */
 
 #social {
-	margin-top: -35px;
     width: 100%;
 }
 
@@ -160,7 +159,6 @@ block-block-316 = Video Feed Block
 
 div#block-views-news_by_department-block_1,
 div#block-views-events_by_department-block_1,
-div#block-twitter_block-26,
 div#block-block-301,
 div#block-block-306,
 div#block-block-316 {
@@ -171,16 +169,17 @@ div#block-block-316 {
 }
 
 div#block-views-news_by_department-block_1,
+div#block-views-events_by_department-block_1,
 div#block-block-306,
-div#block-twitter_block-26 {
+div#block-block-316 {
     float: left;
 }
 
-div#block-views-events_by_department-block_1,
-div#block-block-316 {
-    float: right;
-}
 
+div#block-cck_blocks-field_leftcolumncopy {
+    margin-top: -26px;
+    margin-bottom: 20px;
+}
 
 /* CUL Quick Links */
 
@@ -255,6 +254,7 @@ img#chat_button_off {
 
 
 /* VIMEO */
+
 #badge {
     height: 520px;
     overflow-y: auto;
@@ -262,8 +262,8 @@ img#chat_button_off {
 }
 
 .vimeoBadge img {
-    margin: 3px 0;
-    border: 1px solid rgba(0,85,150,.25);
+    margin: auto;
+    border: 1px solid rgba(0, 85, 150, .25);
 }
 
 .vimeoBadge #vimeo_badge_logo {
@@ -278,12 +278,20 @@ img#chat_button_off {
     visibility: hidden;
 }
 
+.vimeoBadge .clip {
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 12px;
+}
+
+.vimeoBadge .caption {
+    text-align: left !important;
+}
+
 .vimeoBadge .s160 {
-    width: 160px;
-    margin: auto;
+    /*width: 160px;*/
 }
 
 .vimeoBadge .s200 {
-    width: 195px;
-    margin: auto;
+    /*width: 200px;*/
 }

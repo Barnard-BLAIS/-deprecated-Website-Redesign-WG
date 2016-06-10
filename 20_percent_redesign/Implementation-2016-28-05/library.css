@@ -1,20 +1,13 @@
 /* SIDEBAR AREA */
 
-#social {
+aside {
+    display: block;
     width: 100%;
-}
-
-a.socialmedia,
-ul#socialmedia {
-    padding: 0;
-    margin-right: 5px;
-    list-style: none none;
 }
 
 ul#socialmedia li {
     display: inline-block;
-    margin: auto;
-    padding: 2.5px;
+    padding-left: 5px;
 }
 
 a.socialmedia:active,
@@ -23,14 +16,14 @@ a.socialmedia:hover {
     text-decoration: none;
 }
 
-
 /* CONTENT AREA */
 
-.lib-wrap {
-    width: 100%
+section {
+    display: block;
+    width: 100%;
 }
 
-.main-content {
+article {
     display: block;
     margin: 10px 0;
     float: left;
@@ -46,19 +39,16 @@ hr.lib-style {
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
+/* Used Throughout */
+
 ul.no-bullets {
     padding: 0;
-    list-style: none none;
+    list-style: none;
 }
 
 ul.no-bullets li {
     margin: 0;
 }
-
-#hours li {
-    margin: 0;
-}
-
 
 /* TOOLTIPS */
 
@@ -148,7 +138,6 @@ ul.no-bullets li {
 
 
 /* 
-
 block-block-306 = Development block
 block-block-301 = Columbia Quick Library Links
 block-block-316 = Video Feed Block

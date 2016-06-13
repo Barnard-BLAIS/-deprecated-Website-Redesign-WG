@@ -187,7 +187,7 @@ div#block-system-main {
 }
 
 h2.block-title,
-.main-content>h2 {
+article>h2 {
     font-family: Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif;
     font-size: 21px;
     font-style: normal;

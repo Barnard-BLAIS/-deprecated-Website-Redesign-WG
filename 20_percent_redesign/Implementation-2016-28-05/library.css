@@ -251,8 +251,12 @@ img#chat_button_off {
 }
 
 .vimeoBadge img {
-    margin: auto;
-    border: 1px solid rgba(0, 85, 150, .25);
+    margin: 1px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    height: 125px;
+    width: 125px;
 }
 
 .vimeoBadge #vimeo_badge_logo {

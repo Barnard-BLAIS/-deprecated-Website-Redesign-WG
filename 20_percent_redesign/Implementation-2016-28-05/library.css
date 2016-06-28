@@ -288,6 +288,11 @@ img#chat_button_off {
     text-align: left !important;
 }
 
-.vimeoBadge .clip a img, .vimeoBadge .clip a:hover img, .vimeoBadge .clip a:active img {
+.vimeoBadge .clip a:hover , .vimeoBadge .clip a:active{
+    border-bottom: 0px none;
+}
+
+.vimeoBadge .caption a:hover, .vimeoBadge .caption a:active{
+    text-decoration: underline;
     border-bottom: 0px none;
 }

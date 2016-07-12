@@ -206,6 +206,7 @@ article>h2 {
 .view .item-list ul li {
     /* border-bottom: 1px solid #acacac; */
     border: none;
+    min-height: 155px;
 }
 
 .view .views-field-field-ledeimage {
@@ -244,10 +245,11 @@ img#chat_button_off {
 
 /* VIMEO */
 
+/*
 #badge {
-    height: 520px;
+    height: auto;
 }
-
+*/
 .vimeoBadge img {
     border: none;
     text-decoration: none;
